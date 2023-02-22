@@ -1,0 +1,29 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #F5F5F5;
+}
+
+.card {
+  background-color: #fff;
+  width: 255px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.card-img {
+  border-radius: 11px;
+}
+
+.card-title {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.file-uppend {
+  background: #FEC56C;
+  padding: 16px 102px;
+  text-decoration: none;
+  color: #000000;
+  border-radius: 30px;
+}
