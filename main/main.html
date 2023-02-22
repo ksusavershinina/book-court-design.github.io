@@ -11,27 +11,51 @@
 </head>
 <body>
   <header>
-    BookCourt
-    <div class="user-profile">
-      <button><a href="../user-profile/user-profile.html">Личный кабинет</a></button> 
+    <div class="logo">BookCourt.CRM</div>
+    <div>
+      <button class="user-profile"><a href="..\user-profile\user-profile.html" class="text">Личный кабинет</a></button>
     </div>
   </header>
-  <div class="book-container">
-    <h1>Ваш каталог</h1>
-  </div>
-  <div class="wrapper">
-    <div class="card">
-      <a href=""><img src="" alt="Обложка книги" class="card-img" width="255" height="320"></a> <!--src - адрес, по которому лежит изображение. дальше запись мне на будущее: <img src="{{ image.image.url }}" alt="{{ image.title }}">-->
-      <div class="card-title">
-        <p>Название книги<br>
-        В наличии:</p> <!-- это тоже потом будет у баззы данных просить-->
-      </div>
+  </header>
+  <main>
+    <div class="book-container">
+      <h1 class="form-title">Ваш каталог</h1>
+      <div class="wrapper">
+        <div class="card">
+          <a href=""><img class="image" src="images\orig.png" alt="Обложка книги" class="card-img" width="195" height="255"></a> <!--src - адрес, по которому лежит изображение. дальше запись мне на будущее: <img src="{{ image.image.url }}" alt="{{ image.title }}">-->
+          <div class="card-title">
+            <p>Сто лет одиночества<br>
+            В наличии:</p> <!-- это тоже потом будет у баззы данных просить-->
+          </div>
+        </div>
+        <div class="card">
+          <a href=""><img class="image" src="images\orig.png" alt="Обложка книги" class="card-img" width="195" height="255"></a> <!--src - адрес, по которому лежит изображение. дальше запись мне на будущее: <img src="{{ image.image.url }}" alt="{{ image.title }}">-->
+          <div class="card-title">
+            <p>Сто лет одиночества<br>
+            В наличии:</p> <!-- это тоже потом будет у баззы данных просить-->
+          </div>
+        </div>
+        <div class="card">
+          <a href=""><img class="image" src="images\orig.png" alt="Обложка книги" class="card-img" width="195" height="255"></a> <!--src - адрес, по которому лежит изображение. дальше запись мне на будущее: <img src="{{ image.image.url }}" alt="{{ image.title }}">-->
+          <div class="card-title">
+            <p>Сто лет одиночества<br>
+            В наличии:</p> <!-- это тоже потом будет у баззы данных просить-->
+          </div>
+        </div>
+        <div class="card">
+          <a href=""><img class="image" src="images\orig.png" alt="Обложка книги" class="card-img" width="195" height="255"></a> <!--src - адрес, по которому лежит изображение. дальше запись мне на будущее: <img src="{{ image.image.url }}" alt="{{ image.title }}">-->
+          <div class="card-title">
+            <p>Сто лет одиночества<br>
+            В наличии:</p> <!-- это тоже потом будет у баззы данных просить-->
+          </div>
+        </div>
     </div>
-  </div>
-  <div class="file-uppend">
-    <label for="catalog">Загрузить файл: 
-      <input type="file" accept=".xls,.cvs" id="catalog">
-    </label>
-  </div>
+    <div class="file-uppend">
+      <label for="catalog"><div>Загрузить файл</div>
+        <input type="file" accept=".xls,.cvs" id="catalog">
+      </label>
+    </div>
+    </div>
+  </main>
 </body>
 </html>
