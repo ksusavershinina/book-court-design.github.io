@@ -3,24 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="style-changes.css">
   <link rel="icon" href="../favicon/favicon.ico" type="image/x-icon">  
   <title>Редактирование профиля</title>
 </head>
 <body>
   <header>
-    <button><a href="user-profile.html"><img src="images\back-player-multimedia-svgrepo-com.svg" alt="Назад" width="70" height="70"></a></button>
-    <p>BookCourt</p>
+    <button class="back-button"><a href="user-profile.html"><img src="images\back-player-multimedia-svgrepo-com.svg" alt="Назад" width="40" height="40"></a></button>
+    <div class="logo">BookCourt.CRM</div>
   </header>
-  <form action="#" method="POST">
+  <main>
+    <form action="#" method="POST">
     <div class="register-form-container">
       <h1 class="form-title">
         Редактирование профиля
       </h1>
       <div class="form-fields">
         <div class="form-field">
-          <input type="text" placeholder="Название компании" required="required" value="#">
-        </div>
+              <input type="text" placeholder="Название компании" required="required "value="#">
+          </div>
         <div class="form-field">
           <input type="text" placeholder="Тип компании" value="#">
         </div>
@@ -40,12 +41,11 @@
           <input type="text" placeholder="Представитель (ФИО)" value="#">
         </div>
         <div class="form-field">
-          <label for="logo">Прикрепите логотип компании в формате png: 
-            <input type="file" accept=".png" id="logo">
-            
-          </label>
-          <hr>
+              <label for="logo">Прикрепите логотип компании в формате png: 
+                <input type="file" accept=".png" id="logo">
+              </label>
         </div>
+        <hr>
         <div class="form-field">
           <input type="password" placeholder="Пароль" required="required">
         </div>
@@ -55,5 +55,6 @@
       </div>
     </div>
   </form>
+  </main>
 </body>
 </html>
