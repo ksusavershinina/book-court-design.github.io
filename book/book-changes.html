@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" href="../favicon/favicon.ico" type="image/x-icon">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="style-changes.css">
+  <title>Редактирование информации о книге</title>
+</head>
+<body>
+  <header>
+    <div>
+      <button class="back-button"><a href="book.html"><img src="images\back-player-multimedia-svgrepo-com.svg" alt="Назад" width="40" height="40"></a></button>
+    </div>
+    <div class="logo">BookCourt.CRM</div>
+  </header>
+  <main>
+    <form action="#" method="POST">
+    <div class="book-container">
+      <h1 class="form-title">Редактироване карточки книги</h1>
+      <div class="form-field">
+        <input type="text" placeholder="Название книги" required="required">
+      </div>
+      <div class="form-field">
+        <input type="text" placeholder="Автор">
+      </div>
+      <div class="form-field">
+        <input type="text" placeholder="Год" required="required">
+      </div>
+      <div class="form-field">
+        <input type="text" placeholder="Жанр" required="required">
+      </div>
+      <div class="form-field">
+        <input type="text" placeholder="Количество страниц" required="required">
+      </div>
+      <div class="form-field">
+        <input type="text" placeholder="Цена">
+      </div>
+      <div class="form-field">
+        <input type="text" placeholder="В наличии">
+      </div>
+      <div class="form-field">
+        <input type="url" placeholder="Ссылка">
+      </div>
+      <div class="form-field">
+        <label for="book">Обложка книги: 
+          <input type="file" accept=".png" id="book">
+        </label>
+      </div>
+      <hr>
+      <div class="form-buttons">
+        <button class="button" value="submit">ОК</button>
+      </div>
+    </div>
+  </form>
+  </main>
+</body>
+</html>
