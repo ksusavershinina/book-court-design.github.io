@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  
+  <link rel="icon" href="../favicon/favicon.ico" type="image/x-icon">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="style-changes.css">
   <link rel="icon" href="../favicon/favicon.ico" type="image/x-icon">  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Редактирование информации о книге</title>
 </head>
@@ -14,9 +15,10 @@
     </div>
     <div class="logo">BookCourt.CRM</div>
   </header>
-  <h1>Редактироване карточки книги</h1>
-  <form action="#" method="POST">
+  <main>
+    <form action="#" method="POST">
     <div class="book-container">
+      <h1 class="form-title">Редактироване карточки книги</h1>
       <div class="form-field">
         <input type="text" placeholder="Название книги" required="required">
       </div>
@@ -46,10 +48,12 @@
           <input type="file" accept=".png" id="book">
         </label>
       </div>
-    </div>
-    <div class="form-buttons">
-      <button class="button" value="submit">ОК</button>
+      <hr>
+      <div class="form-buttons">
+        <button class="button" value="submit">ОК</button>
+      </div>
     </div>
   </form>
+  </main>
 </body>
 </html>
